@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo"> Alam's Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="burger" onclick="this.classList.toggle('active')">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1 class="animate__animated animate__fadeInDown">
+                Hi, I'm <span class="highlight">zubair Alam</span>
+            </h1>
+            <p class="typing animate__animated animate__fadeInUp">
+                I'm a <span class="typed-text"></span><span class="cursor">&nbsp;</span>
+            </p>
+            <div class="social-icons animate__animated animate__fadeInUp">
+                <a href="https://github.com/zub98" class="social-icon" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/zubair-alam-86a975215?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BiimQ1qBcSNmA1ts2Fl3TZg%3D%3D" class="social-icon" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://x.com/ZUBAIRA09932514" class="social-icon" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+            <a href="#contact" class="cta-btn animate__animated animate__fadeInUp">Get In Touch</a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <p>why r u waiting buddy?? scroll down</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title" data-aos="fade-up">About Me</h2>
+        <div class="about-content">
+            <div class="about-img" data-aos="fade-right">
+                <img src="C:\Users\zubair alam\Downloads\imagesprofile.png.jpg" alt="Profile Picture">
+            </div>
+            <div class="about-text" data-aos="fade-left">
+                <h3>Let me introduce myself</h3>
+                <p>Hello! I'm Zubair Alam, a passionate and dedicated web developer with a creative mindset and a generous spirit. I believe in using technology to make a positive impact in the world. With a strong foundation in frontend development and a keen eye for design, I create engaging and user-friendly web experiences that leave a lasting impression.</p>
+                <p>When I'm not coding, I enjoy collaborating with others, sharing knowledge, and contributing to the tech community. My goal is to continue growing as a developer while helping others achieve their digital aspirations.</p>
+                <div class="about-details">
+                    <div class="detail">
+                        <i class="fas fa-user"></i>
+                        <div>
+                            <h4>Name</h4>
+                            <p>Zubair Alam</p>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>za93548151@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Delhi, India</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://zub98.github.io/resume/" class="btn">
+                    <i class="fas fa-eye"></i> See Resume
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title" data-aos="fade-up">My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category" data-aos="fade-up">
+                <h3>Frontend Development</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-html5"></i>
+                        <h4>HTML5</h4>
+                        <div class="progress-bar">
+                            <div class="progress" data-value="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-css3-alt"></i>
+                        <h4>CSS3</h4>
+                        <div class="progress-bar">
+                            <div class="progress" data-value="60"></div>
+                        </div>
+                       
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-js"></i>
+                        <h4>JavaScript</h4>
+                        <div class="progress-bar">
+                            <div class="progress" data-value="60"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-react"></i>
+                        <h4>React</h4>
+                        <div class="progress-bar">
+                            <div class="progress" data-value="30"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title" data-aos="fade-up">My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card" data-aos="fade-up">
+                <div class="project-info">
+                    <h3>DTC Home Page</h3>
+                    <p>A static website showcasing Delhi Transport Corporation's services and information. Built with clean and modern design using only HTML and CSS to create an intuitive user interface.</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-aos="fade-up">
+                <div class="project-info">
+                    <h3>TUMI E-commerce Clone</h3>
+                    <p>Created a responsive clone of TUMI bags e-commerce website, replicating the sleek design and functionality of my favorite luxury brand. Implemented product galleries, navigation menus, and interactive elements using vanilla JavaScript.</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-aos="fade-up">
+                <div class="project-info">
+                    <h3>Coaching Management System - IIIS</h3>
+                    <p>Developed a comprehensive coaching management system at IIIS for my project, implementing frontend interfaces and system deployment. The project focused on streamlining administrative tasks, student management, and course scheduling using PHP for backend functionality and modern frontend technologies for an intuitive user experience.</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>PHP</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-aos="fade-up">
+                <div class="project-info">
+                    <h3>Amazon E-commerce Clone</h3>
+                    <p>Developed a responsive clone of Amazon's e-commerce platform, replicating core features and user interface elements. Implemented product listings, shopping cart functionality, and responsive navigation using vanilla JavaScript for interactivity and modern CSS for styling.</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info" data-aos="fade-right">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>za93548151@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h3>Phone</h3>
+                        <p>9810433480</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>Location</h3>
+                        <p data-autocomplete="location">Delhi, India</p>
+                    </div>
+                </div>
+            </div>
+            <form id="contact-form" class="contact-form" data-aos="fade-left">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn">
+                    <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-social">
+                <a href="https://github.com/zub98" class="social-icon" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/zubair-alam-86a975215/" class="social-icon" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://x.com/ZUBAIRA09932514" class="social-icon" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+            <p>&copy; 2024 ZUBAIR ALAM. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
